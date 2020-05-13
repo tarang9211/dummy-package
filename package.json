@@ -1,0 +1,16 @@
+{
+  "name": "@tarang9211/dummy-package",
+  "version": "0.0.1",
+  "description": "first dummy package to npm",
+  "main": "dist/dummy-package.cjs.js",
+  "module": "dist/dummy-package.esm.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "preconstruct build",
+    "release": "yarn build && npm publish"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
+    "@preconstruct/cli": "^1.1.14"
+  }
+}
